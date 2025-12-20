@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "verbatimModuleSyntax": true,
+
+    "target": "ES2025",
+    "module": "ES2025",
+    "moduleResolution": "bundler",
+    "lib": ["ES2025"],
+
+    "allowJs": false,
+    "moduleDetection": "force",
+    "isolatedModules": true,
+    "useDefineForClassFields": true,
+
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "exactOptionalPropertyTypes": true,
+    "noPropertyAccessFromIndexSignature": true,
+
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+
+    "composite": false,
+    "preserveWatchOutput": true,
+    "forceConsistentCasingInFileNames": true,
+    "noErrorTruncation": true
+  }
+}

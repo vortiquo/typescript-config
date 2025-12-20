@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "./bases.json",
+  "compilerOptions": {
+    "lib": ["ES2025"],
+    "target": "ES2025",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+
+    "types": ["node"],
+
+    "noEmit": false,
+    "resolveJsonModule": true
+  }
+}

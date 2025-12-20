@@ -1,0 +1,60 @@
+{
+  "name": "@vortiquo/typescript-config",
+  "version": "0.0.1",
+  "description": "Strict, modern TypeScript configurations for Next.js, React, Node.js, and NestJS projects",
+  "license": "MIT",
+  "author": "Vortiquo <dev@vortiquo.com>",
+  "homepage": "https://github.com/vortiquo/typescript-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vortiquo/typescript-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vortiquo/typescript-config/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "typescript",
+    "tsconfig",
+    "config",
+    "nextjs",
+    "react",
+    "nodejs",
+    "nestjs",
+    "strict",
+    "shared-config"
+  ],
+  "exports": {
+    "./nextjs": "./nextjs.json",
+    "./nestjs": "./nestjs.json",
+    "./node-library": "./node-library.json",
+    "./react-library": "./react-library.json",
+    "./server": "./server.json"
+  },
+  "files": [
+    "*.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "devDependencies": {
+    "@commitlint/cli": "^20.2.0",
+    "@commitlint/config-conventional": "^20.2.0",
+    "@ls-lint/ls-lint": "^2.3.1",
+    "@next/eslint-plugin-next": "^16.1.0",
+    "@vortiquo/eslint-config": "^1.1.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^9.39.2",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
+    "prettier": "^3.7.4"
+  },
+  "scripts": {
+    "prepare": "husky",
+    "lint": "eslint --ext .js --max-warnings=0 .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "commit": "cz"
+  }
+}

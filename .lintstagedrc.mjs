@@ -1,0 +1,6 @@
+export default {
+  '**/*.{js,jsx,ts,tsx,hbs,html,mjml,css,scss,json,graphql,yml,yaml,md}': [
+    'prettier --write',
+  ],
+  '**/*.js': ['pnpm eslint --max-warnings=0 --fix'],
+};
