@@ -1,6 +1,6 @@
 {
   "name": "@vortiquo/typescript-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Strict, modern TypeScript configurations for Next.js, React, Node.js, and NestJS projects",
   "license": "MIT",
   "author": "Vortiquo <dev@vortiquo.com>",
