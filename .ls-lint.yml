@@ -13,3 +13,4 @@ ignore:
   - .github
   - .husky
   - node_modules
+  - .pnpm-store
