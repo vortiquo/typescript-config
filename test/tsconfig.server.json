@@ -1,0 +1,7 @@
+{
+  "extends": "../server.json",
+  "compilerOptions": {
+    "rootDir": "."
+  },
+  "include": ["dummy.ts"]
+}

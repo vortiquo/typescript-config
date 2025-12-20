@@ -1,0 +1,8 @@
+{
+  "extends": "../nestjs.json",
+  "compilerOptions": {
+    "rootDir": "."
+  },
+  "include": ["dummy-cjs.ts"],
+  "exclude": ["dummy.ts"]
+}

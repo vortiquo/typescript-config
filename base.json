@@ -4,7 +4,7 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "resolveJsonModule": true,
-    "verbatimModuleSyntax": true,
+    "verbatimModuleSyntax": false,
 
     "target": "ES2024",
     "module": "ES2022",
