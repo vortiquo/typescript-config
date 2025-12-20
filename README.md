@@ -8,7 +8,7 @@ Strict, modern TypeScript configurations for professional projects.
 ## Features
 
 - 🔒 **Strict by default** - Catches bugs at compile time
-- 🚀 **Modern** - ES2025 target, bundler module resolution
+- 🚀 **Modern** - ES2024 target, bundler module resolution
 - 📦 **Ready-to-use presets** - Next.js, React, Node.js, NestJS
 - 🎯 **Zero config** - Just extend and go
 
@@ -114,7 +114,7 @@ All configs extend from a strict base with:
 - **Strict type checking** - `strict`, `noUncheckedIndexedAccess`,
   `exactOptionalPropertyTypes`
 - **Code quality** - `noUnusedLocals`, `noUnusedParameters`, `noImplicitReturns`
-- **Modern output** - ES2025 target, bundler module resolution
+- **Modern output** - ES2024 target, bundler module resolution
 - **Best practices** - `verbatimModuleSyntax`, `isolatedModules`,
   `forceConsistentCasingInFileNames`
 
