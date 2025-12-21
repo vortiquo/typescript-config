@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/vortiquo/typescript-config/compare/v1.0.2...v1.0.3) (2025-12-21)
+
+
+### Bug Fixes
+
+* update server config to use base instead of wrong bases config ([cef51ef](https://github.com/vortiquo/typescript-config/commit/cef51ef87e76b8fb6c3b006f8eb980ae9d4b237e))
+
 ## [1.0.2](https://github.com/vortiquo/typescript-config/compare/v1.0.1...v1.0.2) (2025-12-20)
 
 
