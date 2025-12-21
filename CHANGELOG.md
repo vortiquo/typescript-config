@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/vortiquo/typescript-config/compare/v1.0.3...v1.1.0) (2025-12-21)
+
+
+### Features
+
+* update node-library.json to use ESNext module resolution ([b1d4f2e](https://github.com/vortiquo/typescript-config/commit/b1d4f2ee1678bb0e197d502c4e202df8c04209c6))
+
 ## [1.0.3](https://github.com/vortiquo/typescript-config/compare/v1.0.2...v1.0.3) (2025-12-21)
 
 
